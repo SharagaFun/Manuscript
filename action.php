@@ -1,4 +1,6 @@
 <?php 
-    $text = $_POST['text'];
-    echo htmlspecialchars($text); 
+    $text = htmlspecialchars($_POST['text']);
+    $text = nl2br($text);
+    
+    echo $text; 
 ?>
