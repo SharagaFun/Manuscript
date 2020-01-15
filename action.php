@@ -14,7 +14,7 @@
                ?>@font-face {
 						font-family: "<?php echo $file[$i-2]; ?>";
 						src: url("fonts/<?php echo pathinfo('fonts/'.$files[$i], PATHINFO_BASENAME); ?>");
-					}<?
+					}<?php
           }
           ?>
 				</style>
